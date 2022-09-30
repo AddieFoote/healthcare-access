@@ -1,1 +1,4 @@
-Texas Convergent Health Tech Healtcare Acess Build Team repo
+# Healtcare Acess 
+
+Repo for Texas Convergent's Health Tech build team for healthcare access
+
