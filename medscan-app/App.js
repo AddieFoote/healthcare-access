@@ -52,7 +52,7 @@ function Search() {
         placeholder="Type medication here"
         placeholderTextColor="#000" 
       />
-      
+
       <TouchableOpacity
       style={styles.scanButton}
       onPress={() => Alert.alert("searched")}
@@ -112,7 +112,8 @@ const styles = StyleSheet.create({
   scanButton: {
     alignItems: "center",
     backgroundColor: "#DDDDDD",
-    padding: 10
+    padding: 20,
+    margin: 10
   },
   input: {
     backgroundColor: "#EEEEEE",
