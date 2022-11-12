@@ -3,9 +3,9 @@ import { Text, View, StyleSheet, Button, Touchable, TouchableOpacity, TextInput,
 import { BarCodeScanner } from 'expo-barcode-scanner';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import HomeScreen from "Screens/HomeScreen"
-import Search from "Screens/SearchScreen"
-import Scanner from "Screens/ScannerScreen"
+import  HomeScreen  from './Screens/HomeScreen';
+import  Search  from './Screens/SearchScreen';
+import  Scanner from './Screens/ScannerScreen';
 
 
 const Stack = createNativeStackNavigator();
