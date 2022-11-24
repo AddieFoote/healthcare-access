@@ -30,7 +30,7 @@ export default function Scanner() {
   }
 
   return (
-    <View style={styles.container}>
+    <View style={styles.container} >
       <BarCodeScanner
         onBarCodeScanned={scanned ? undefined : handleBarCodeScanned}
         style={StyleSheet.absoluteFillObject}

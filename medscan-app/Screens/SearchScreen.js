@@ -7,7 +7,7 @@ export default function Search() {
     const [inputText, onChangeText] = React.useState(null);
     
     return (
-      <View>
+      <View style={styles.viewsBackground} >
         <TextInput
           style={styles.input}
           onChangeText={onChangeText}
@@ -18,7 +18,7 @@ export default function Search() {
   
         <TouchableOpacity
         style={styles.scanButton}
-        onPress={() => Alert.alert("searched")}
+        onPress={() => navigation.navigate('Info')}
         >
           <Text>Search</Text>
         </TouchableOpacity>    
