@@ -2,11 +2,13 @@ import React from 'react';
 import { Text, View, TouchableOpacity, TextInput, Alert } from 'react-native';
 import { styles } from '../Styles';
 
-export default function InfoScreen() {
+export default function InfoScreen({route, nativation}) {
+    const { name } = route.params;
+
     return (
         <View style={styles.viewsBackground} >
             <TouchableOpacity style={styles.infoButtons}>
-                <Text>Name</Text>
+                <Text>{name}</Text>
             </TouchableOpacity>
 
             <TouchableOpacity style={styles.infoButtons}>

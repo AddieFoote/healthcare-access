@@ -19,7 +19,7 @@ export default function Search( { navigation } ) {
         <TouchableOpacity
         style={styles.scanButton}
         
-        onPress={() => navigation.navigate('Info')}
+        onPress={() => navigation.navigate('Info', {name: inputText})}
         >
           <Text>Search</Text>
         </TouchableOpacity>    
