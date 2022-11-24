@@ -25,5 +25,5 @@ export default function Search( { navigation } ) {
         </TouchableOpacity>    
       </View>
     );
-  
+
   }
