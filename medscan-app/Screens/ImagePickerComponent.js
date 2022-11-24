@@ -2,7 +2,14 @@ import * as ImagePicker from "expo-image-picker";
 import React, { useState, useEffect } from "react";
 import { Button, Image, View, Text } from "react-native";
 
-function ImagePickerComponent({ onSubmit }) {
+import {callGoogleVisionAsync} from './helperFunctions'
+
+function onSubmit(image) {
+  callGoogleVisionAsync(image);
+}
+
+export default function ImagePickerComponent(/*{ onSubmit }*/) {
+
   const [image, setImage] = useState(null);
   const [text, setText] = useState("Please add an image");
   const pickImage = async () => {
@@ -31,4 +38,3 @@ function ImagePickerComponent({ onSubmit }) {
     </View>
   );
 }
-export default ImagePickerComponent;

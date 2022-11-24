@@ -5,7 +5,8 @@ import  HomeScreen  from './Screens/HomeScreen';
 import  Search  from './Screens/SearchScreen';
 import  Scanner from './Screens/ScannerScreen';
 import InfoScreen from './Screens/InfoScreen';
-
+import ImagePickerComponent from './Screens/ImagePickerComponent';
+import {callGoogleVisionAsync} from './Screens/helperFunctions'
 
 const Stack = createNativeStackNavigator();
 
@@ -17,6 +18,7 @@ export default function App() {
         <Stack.Screen name="Scanner" component={Scanner} />
         <Stack.Screen name="Search" component={Search} />
         <Stack.Screen name="Info" component={InfoScreen} />
+        <Stack.Screen name="Upload Image" component={ImagePickerComponent} />
 
       </Stack.Navigator>
     }</NavigationContainer>
