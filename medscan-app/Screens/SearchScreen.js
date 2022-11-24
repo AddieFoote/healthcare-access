@@ -3,7 +3,7 @@ import { Text, View, TouchableOpacity, TextInput, Alert } from 'react-native';
 import { styles } from '../Styles';
 
 
-export default function Search() {
+export default function Search( { navigation } ) {
     const [inputText, onChangeText] = React.useState(null);
     
     return (
@@ -18,6 +18,7 @@ export default function Search() {
   
         <TouchableOpacity
         style={styles.scanButton}
+        
         onPress={() => navigation.navigate('Info')}
         >
           <Text>Search</Text>
