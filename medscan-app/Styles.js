@@ -39,7 +39,10 @@ export const styles = StyleSheet.create({
       padding: 14
     }, 
     title:{
-      fontSize: 24
+      fontSize: 24, 
+      justifyContent: "center", 
+      paddingBottom: 20, 
+      paddingLeft: 6
     }
   });
   

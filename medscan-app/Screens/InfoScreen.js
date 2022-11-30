@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Text, View, TouchableOpacity, TextInput, Alert } from 'react-native';
+import { Text, View, Image, InlineImage, TouchableOpacity, TextInput, Alert } from 'react-native';
 import { styles } from '../Styles';
 
 export default function InfoScreen({route, nativation}) {
@@ -23,18 +23,27 @@ export default function InfoScreen({route, nativation}) {
             </TouchableOpacity>
 
             <TouchableOpacity style={styles.infoButtons} onPress={() => setDosageVis(!dosageVis)}>
-                <Text style={styles.titleTextStyle}>Dosage Information</Text>
+                <Text style={styles.titleTextStyle}>
+                    <Image source={require('./icons/Hygrometer.png')} />
+                    Dosage Information
+                </Text>
                 { dosageVis ? <Text style={styles.infoTextStyle}>{dosage}</Text> : null }
             </TouchableOpacity>
 
             <TouchableOpacity style={styles.infoButtons} onPress={() => setInteractionsVis(!interactionsVis)}>
-                <Text style={styles.titleTextStyle}>Interactions</Text>
+                <Text style={styles.titleTextStyle}>
+                    <Image source={require('./icons/Hygrometer.png')} />
+                    Interactions
+                </Text>
                 { interactionsVis ? <Text style={styles.infoTextStyle}>{interactions}</Text> : null }
 
             </TouchableOpacity>
 
             <TouchableOpacity style={styles.infoButtons} onPress={() => setHowToTakeVis(!howToTakeVis)}>
-                <Text style={styles.titleTextStyle}>How to Take</Text>
+                <Text style={styles.titleTextStyle}>
+                    <Image source={require('./icons/Hygrometer.png')} />
+                    How to Take
+                </Text>
                 { howToTakeVis ? <Text style={styles.infoTextStyle}>{howToTake}</Text> : null }
 
             </TouchableOpacity>
