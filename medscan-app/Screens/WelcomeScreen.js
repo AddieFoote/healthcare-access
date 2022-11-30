@@ -11,7 +11,7 @@ import MaterialCommunityIconsIcon from "react-native-vector-icons/MaterialCommun
 import EntypoIcon from "react-native-vector-icons/Entypo";
 import Svg, { Ellipse } from "react-native-svg";
 
-function WelcomeScreen(props) {
+export default function WelcomeScreen({ navigation }) {
   return (
     <View style={styles.container}>
       <TouchableOpacity style={styles.button}>
@@ -186,7 +186,7 @@ const styles = StyleSheet.create({
     marginLeft: 7
   },
   saved: {
-    fontFamily: "poppins-regular",
+    //fontFamily: "poppins-regular",
     color: "#121212",
     marginTop: 2
   },
@@ -199,7 +199,7 @@ const styles = StyleSheet.create({
     top: 43,
     left: 0,
     position: "absolute",
-    fontFamily: "poppins-regular",
+    //fontFamily: "poppins-regular",
     color: "#121212",
     textAlign: "justify"
   },
@@ -221,7 +221,7 @@ const styles = StyleSheet.create({
     top: 39,
     left: 0,
     position: "absolute",
-    fontFamily: "poppins-regular",
+    //fontFamily: "poppins-regular",
     color: "#121212",
     textAlign: "justify"
   },
@@ -260,7 +260,7 @@ const styles = StyleSheet.create({
     top: 32,
     left: 1,
     position: "absolute",
-    fontFamily: "poppins-700",
+    //fontFamily: "poppins-700",
     color: "#121212",
     fontSize: 13
   },
@@ -278,7 +278,7 @@ const styles = StyleSheet.create({
     height: 52
   },
   scan: {
-    fontFamily: "poppins-700",
+    //fontFamily: "poppins-700",
     color: "#121212",
     fontSize: 21,
     marginLeft: 68,
@@ -288,7 +288,7 @@ const styles = StyleSheet.create({
     top: 31,
     left: 0,
     position: "absolute",
-    fontFamily: "poppins-700",
+    //fontFamily: "poppins-700",
     color: "#121212",
     fontSize: 12
   },
@@ -369,14 +369,14 @@ const styles = StyleSheet.create({
     marginTop: 343
   },
   tools: {
-    fontFamily: "poppins-700",
+    //fontFamily: "poppins-700",
     color: "#121212",
     fontSize: 21,
     marginTop: -597,
     marginLeft: 27
   },
   recents: {
-    fontFamily: "poppins-700",
+    //fontFamily: "poppins-700",
     color: "#121212",
     fontSize: 21,
     marginTop: 167,
@@ -408,7 +408,7 @@ const styles = StyleSheet.create({
     marginLeft: 44
   },
   nitrostat: {
-    fontFamily: "poppins-regular",
+    //fontFamily: "poppins-regular",
     color: "#121212",
     fontSize: 18,
     marginLeft: 26
@@ -439,7 +439,7 @@ const styles = StyleSheet.create({
     marginLeft: 45
   },
   amoxycillin: {
-    fontFamily: "poppins-regular",
+    //fontFamily: "poppins-regular",
     color: "#121212",
     fontSize: 18,
     marginLeft: 14
@@ -455,7 +455,7 @@ const styles = StyleSheet.create({
     top: 80,
     left: 26,
     position: "absolute",
-    fontFamily: "poppins-regular",
+    //fontFamily: "poppins-regular",
     color: "#121212",
     fontSize: 18
   },
@@ -490,7 +490,7 @@ const styles = StyleSheet.create({
     marginLeft: 45
   },
   dayQuil: {
-    fontFamily: "poppins-regular",
+    //fontFamily: "poppins-regular",
     color: "#121212",
     fontSize: 18,
     marginLeft: 26
@@ -506,7 +506,7 @@ const styles = StyleSheet.create({
     top: 80,
     left: 26,
     position: "absolute",
-    fontFamily: "poppins-regular",
+    //fontFamily: "poppins-regular",
     color: "#121212",
     fontSize: 18
   },
@@ -524,7 +524,7 @@ const styles = StyleSheet.create({
     marginTop: 6
   },
   welcomeBackUser: {
-    fontFamily: "poppins-700",
+    //fontFamily: "poppins-700",
     color: "#121212",
     fontSize: 21,
     marginTop: 30
@@ -557,4 +557,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default WelcomeScreen;
+//export default WelcomeScreen;
