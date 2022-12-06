@@ -19,7 +19,7 @@ function generateBody(image) {
     };
     return body;
   }
-  async function callGoogleVisionAsync(image) {
+  export async function callGoogleVisionAsync(image) {
     const body = generateBody(image);
     const response = await fetch(API_URL, {
       method: "POST",
@@ -36,5 +36,4 @@ function generateBody(image) {
       ? detectedText
       : { text: "This image doesn't contain any text!" };
   }
-  export default callGoogleVisionAsync;
   

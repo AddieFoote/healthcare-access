@@ -5,7 +5,7 @@ import { Button, Image, View, Text } from "react-native";
 import {callGoogleVisionAsync} from './helperFunctions'
 
 function onSubmit(image) {
-  callGoogleVisionAsync(image);
+  return callGoogleVisionAsync(image);
 }
 
 export default function ImagePickerComponent() {
@@ -21,7 +21,8 @@ export default function ImagePickerComponent() {
     if (!result.cancelled) {
       setImage(result.uri);
       setText("Loading..");
-      const responseData = await callGoogleVisionAsync(result.base64);
+      const responseData = await onSubmit(result.base64);
+      console.log(responseData);
       setText(responseData.text);
     }
   };
