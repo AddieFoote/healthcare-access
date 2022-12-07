@@ -407,14 +407,14 @@ const styles = StyleSheet.create({
     fontFamily: "poppins-500",
     color: "#121212",
     fontSize: 14,
-    lineHeight: 16
+    lineHeight: 20
   },
   interaction2: {
     fontFamily: "poppins-500",
     color: "#121212",
     textAlign: "justify",
     fontSize: 13,
-    lineHeight: 16,
+    lineHeight: 20,
     marginLeft: 42
   },
   reverse2: {
@@ -422,7 +422,7 @@ const styles = StyleSheet.create({
     color: "#121212",
     textAlign: "justify",
     fontSize: 13,
-    lineHeight: 16,
+    lineHeight: 20,
     marginLeft: 35
   },
   saved1Row: {
@@ -444,7 +444,7 @@ const styles = StyleSheet.create({
     color: "#121212",
     textAlign: "justify",
     fontSize: 13,
-    lineHeight: 16,
+    lineHeight: 20,
     marginLeft: 58
   },
   checkerRow: {

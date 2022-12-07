@@ -19,7 +19,7 @@ export default function InfoScreen({route, nativation}) {
 
     return (
 
-        <View style={styles.viewsBackground} >
+        <View style={styles.viewsBackground}>
             <TouchableOpacity style={styles.infoButtons}>
                 <Text style={styles.title}>{name}</Text>
             </TouchableOpacity>
