@@ -6,12 +6,17 @@ export const styles = StyleSheet.create({
       backgroundColor: '#FFF9E8',
       alignItems: 'center',
       justifyContent: 'center',
+    }, welcome: {
+      fontSize: 30
+    },buttonText: {
+      fontSize: 20
     },
     scanButton: {
       alignItems: "center",
       backgroundColor: "#E18D7A",
       padding: 20,
       margin: 10
+    
     },
     input: {
       height: 40,

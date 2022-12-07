@@ -198,7 +198,7 @@ const styles = StyleSheet.create({
     marginTop: 2
   },
   scan: {
-    fontFamily: "poppins-500",
+    //fontFamily: "poppins-500",
     color: "#121212",
     fontSize: 26,
     marginLeft: 84
@@ -219,12 +219,12 @@ const styles = StyleSheet.create({
     marginRight: 178
   },
   home1: {
-    fontFamily: "poppins-500",
+    //fontFamily: "poppins-500",
     color: "#121212",
     fontSize: 10
   },
   pharmacy1: {
-    fontFamily: "poppins-500",
+    //fontFamily: "poppins-500",
     color: "#121212",
     fontSize: 10,
     marginLeft: 215
@@ -313,7 +313,7 @@ const styles = StyleSheet.create({
     marginLeft: -61
   },
   welcomeBack3: {
-    fontFamily: "poppins-500",
+    //fontFamily: "poppins-500",
     color: "#121212",
     fontSize: 20,
     marginTop: 50
@@ -383,13 +383,13 @@ const styles = StyleSheet.create({
     marginRight: 41
   },
   saved1: {
-    fontFamily: "poppins-500",
+    //fontFamily: "poppins-500",
     color: "#121212",
     fontSize: 14,
     lineHeight: 16
   },
   interaction2: {
-    fontFamily: "poppins-500",
+    //fontFamily: "poppins-500",
     color: "#121212",
     textAlign: "justify",
     fontSize: 13,
@@ -397,7 +397,7 @@ const styles = StyleSheet.create({
     marginLeft: 42
   },
   reverse2: {
-    fontFamily: "poppins-500",
+    //fontFamily: "poppins-500",
     color: "#121212",
     textAlign: "justify",
     fontSize: 13,
@@ -412,14 +412,14 @@ const styles = StyleSheet.create({
     marginRight: 69
   },
   checker: {
-    fontFamily: "poppins-500",
+    //fontFamily: "poppins-500",
     color: "#121212",
     textAlign: "justify",
     fontSize: 13,
     lineHeight: 16
   },
   search: {
-    fontFamily: "poppins-500",
+    //fontFamily: "poppins-500",
     color: "#121212",
     textAlign: "justify",
     fontSize: 13,
@@ -464,7 +464,7 @@ const styles = StyleSheet.create({
     top: 73,
     left: 0,
     position: "absolute",
-    fontFamily: "poppins-regular",
+    //fontFamily: "poppins-regular",
     color: "#121212",
     fontSize: 13
   },
@@ -485,7 +485,7 @@ const styles = StyleSheet.create({
     top: 78,
     left: 43,
     position: "absolute",
-    fontFamily: "poppins-regular",
+    //fontFamily: "poppins-regular",
     color: "#121212",
     fontSize: 18
   },
@@ -510,7 +510,7 @@ const styles = StyleSheet.create({
     top: 73,
     left: 0,
     position: "absolute",
-    fontFamily: "poppins-regular",
+    //fontFamily: "poppins-regular",
     color: "#121212",
     fontSize: 13
   },
@@ -551,7 +551,7 @@ const styles = StyleSheet.create({
     top: 73,
     left: 0,
     position: "absolute",
-    fontFamily: "poppins-regular",
+    //fontFamily: "poppins-regular",
     color: "rgba(0,0,0,1)",
     fontSize: 13
   },
@@ -579,7 +579,7 @@ const styles = StyleSheet.create({
   recents2: {
     left: 0,
     position: "absolute",
-    fontFamily: "poppins-500",
+    //fontFamily: "poppins-500",
     color: "#121212",
     fontSize: 20,
     top: 0
@@ -591,14 +591,14 @@ const styles = StyleSheet.create({
     marginLeft: 20
   },
   tools1: {
-    fontFamily: "poppins-500",
+    //fontFamily: "poppins-500",
     color: "#121212",
     fontSize: 20,
     marginTop: -371,
     marginLeft: 21
   },
   pranav: {
-    fontFamily: "poppins-500",
+    //fontFamily: "poppins-500",
     color: "#121212",
     fontSize: 20,
     marginTop: -150,
