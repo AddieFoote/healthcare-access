@@ -15,7 +15,9 @@ infoMap.set("Tylenol", ["For Adults: 1 pill every 4 to 6 hours. Do not take more
 ,"Acetaminophen is an analgesic drug" ])
 
 export default function InfoScreen({route, nativation}) {
-    const { name } = route.params;
+    var { name, ndc } = route.params;
+    if (name== null) name = map.get(ndc);
+
     const [dosageVis, setDosageVis] = useState(false);
     const [interactionsVis, setInteractionsVis] = useState(false);
     const [howToTakeVis, setHowToTakeVis] = useState(false);
