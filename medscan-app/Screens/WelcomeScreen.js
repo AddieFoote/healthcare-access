@@ -223,7 +223,6 @@ const styles = StyleSheet.create({
   },
   image20_imageStyle: {},
   recents2: {
-    fontFamily: "poppins-500",
     color: "#121212",
     fontSize: 20,
     marginTop: 78,
@@ -280,7 +279,6 @@ const styles = StyleSheet.create({
     marginLeft: 6
   },
   home2: {
-    fontFamily: "poppins-500",
     color: "#121212",
     fontSize: 8,
     marginTop: 2
@@ -289,25 +287,23 @@ const styles = StyleSheet.create({
     width: 38
   },
   scan: {
-    top: 5,
-    left: 0,
+    top: 8,
+    left: 2,
     position: "absolute",
-    fontFamily: "poppins-500",
     color: "#121212",
-    fontSize: 26
+    fontSize: 21
   },
   button2: {
     top: 0,
-    left: 4,
+    left: 0,
     width: 57,
     height: 45,
     position: "absolute"
   },
   scanStack: {
-    width: 66,
+    width: 57,
     height: 45,
-    marginLeft: 84,
-    marginTop: 3
+    marginLeft: 88
   },
   icon3: {
     color: "rgba(30,45,13,1)",
@@ -317,14 +313,13 @@ const styles = StyleSheet.create({
     marginLeft: 16
   },
   pharmacy3: {
-    fontFamily: "poppins-500",
     color: "#121212",
     fontSize: 8,
     marginTop: 2
   },
   icon3Column: {
     width: 42,
-    marginLeft: 68,
+    marginLeft: 73,
     marginTop: 3
   },
   icon2ColumnRow: {
@@ -342,14 +337,14 @@ const styles = StyleSheet.create({
     position: "absolute"
   },
   image15: {
-    top: 403,
+    top: 406,
     left: 420,
     width: 40,
     height: 40,
     position: "absolute"
   },
   image16: {
-    top: 402,
+    top: 406,
     left: 448,
     width: 40,
     height: 40,
@@ -396,14 +391,12 @@ const styles = StyleSheet.create({
     marginRight: 55
   },
   saved1: {
-    fontFamily: "poppins-500",
     color: "#121212",
     fontSize: 14,
     lineHeight: 16,
     marginTop: 8
   },
   interaction2: {
-    fontFamily: "poppins-500",
     color: "#121212",
     textAlign: "justify",
     fontSize: 13,
@@ -411,7 +404,6 @@ const styles = StyleSheet.create({
     marginLeft: 54
   },
   reverse2: {
-    fontFamily: "poppins-500",
     color: "#121212",
     textAlign: "justify",
     fontSize: 13,
@@ -425,14 +417,12 @@ const styles = StyleSheet.create({
     marginRight: 69
   },
   checker: {
-    fontFamily: "poppins-500",
     color: "#121212",
     textAlign: "justify",
     fontSize: 13,
     lineHeight: 16
   },
   search: {
-    fontFamily: "poppins-500",
     color: "#121212",
     textAlign: "justify",
     fontSize: 13,
@@ -604,7 +594,6 @@ const styles = StyleSheet.create({
   },
   image18_imageStyle: {},
   tools1: {
-    fontFamily: "poppins-500",
     color: "#121212",
     fontSize: 20,
     marginTop: 250,
@@ -619,7 +608,6 @@ const styles = StyleSheet.create({
   },
   image17_imageStyle: {},
   welcomeBack3: {
-    fontFamily: "poppins-500",
     color: "#121212",
     fontSize: 20,
     marginTop: 50
@@ -653,7 +641,6 @@ const styles = StyleSheet.create({
     marginRight: 117
   },
   pranav: {
-    fontFamily: "poppins-500",
     color: "#121212",
     fontSize: 20,
     marginLeft: 114
@@ -674,3 +661,4 @@ const styles = StyleSheet.create({
   },
   rect5: {}
 });
+
