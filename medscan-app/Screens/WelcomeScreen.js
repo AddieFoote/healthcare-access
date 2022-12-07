@@ -453,7 +453,6 @@ const styles = StyleSheet.create({
     top: 73,
     left: 0,
     position: "absolute",
-    fontFamily: "poppins-regular",
     color: "#121212",
     fontSize: 13
   },
@@ -474,7 +473,6 @@ const styles = StyleSheet.create({
     top: 78,
     left: 43,
     position: "absolute",
-    fontFamily: "poppins-regular",
     color: "#121212",
     fontSize: 18
   },
@@ -499,7 +497,6 @@ const styles = StyleSheet.create({
     top: 73,
     left: 0,
     position: "absolute",
-    fontFamily: "poppins-regular",
     color: "#121212",
     fontSize: 13
   },
@@ -540,7 +537,6 @@ const styles = StyleSheet.create({
     top: 73,
     left: 0,
     position: "absolute",
-    fontFamily: "poppins-regular",
     color: "rgba(0,0,0,1)",
     fontSize: 13
   },
