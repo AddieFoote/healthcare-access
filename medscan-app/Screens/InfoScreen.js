@@ -16,7 +16,7 @@ infoMap.set("Tylenol", ["For Adults: 1 pill every 4 to 6 hours. Do not take more
 
 export default function InfoScreen({route, nativation}) {
     var { name, ndc } = route.params;
-    if (name== null) name = map.get(ndc);
+    if (name== null) name = barcodeMap.get(ndc);
 
     const [dosageVis, setDosageVis] = useState(false);
     const [interactionsVis, setInteractionsVis] = useState(false);
