@@ -12,7 +12,7 @@ import MaterialCommunityIconsIcon from "react-native-vector-icons/MaterialCommun
 import FontAwesomeIcon from "react-native-vector-icons/FontAwesome";
 import Svg, { Ellipse } from "react-native-svg";
 
-function WelcomeScreen(props) {
+export default function WelcomeScreen({navigation}) {
   return (
     <View style={styles.container}>
       <View style={styles.image19StackStack}>
@@ -675,4 +675,3 @@ const styles = StyleSheet.create({
   rect5: {}
 });
 
-export default WelcomeScreen;
