@@ -210,8 +210,82 @@ const styles = StyleSheet.create({
   image19: {
     top: 100,
     left: 0,
+<<<<<<< HEAD
     width: 394,
     height: 373,
+=======
+    width: 580,
+    height: 129,
+    position: "absolute",
+    backgroundColor: "rgba(124,169,130,1)",
+    shadowColor: "rgba(0,0,0,1)",
+    shadowOffset: {
+      width: 3,
+      height: 3
+    },
+    elevation: 30,
+    shadowOpacity: 1,
+    shadowRadius: 10
+  },
+  icon2: {
+    color: "rgba(230,227,201,1)",
+    fontSize: 32,
+    height: 35,
+    width: 32,
+    marginTop: 2
+  },
+  scan: {
+    //fontFamily: "poppins-500",
+    color: "#121212",
+    fontSize: 26,
+    marginLeft: 84
+  },
+  icon3: {
+    color: "rgba(30,45,13,1)",
+    fontSize: 32,
+    height: 32,
+    width: 25,
+    marginLeft: 84,
+    marginTop: 5
+  },
+  icon2Row: {
+    height: 39,
+    flexDirection: "row",
+    marginTop: 5,
+    marginLeft: 111,
+    marginRight: 178
+  },
+  home1: {
+    //fontFamily: "poppins-500",
+    color: "#121212",
+    fontSize: 10
+  },
+  pharmacy1: {
+    //fontFamily: "poppins-500",
+    color: "#121212",
+    fontSize: 10,
+    marginLeft: 215
+  },
+  home1Row: {
+    height: 15,
+    flexDirection: "row",
+    marginTop: 1,
+    marginLeft: 111,
+    marginRight: 172
+  },
+  icon4: {
+    top: 0,
+    left: 208,
+    position: "absolute",
+    fontSize: 120,
+    color: "rgba(233,247,216,1)"
+  },
+  rect4Stack: {
+    top: 20,
+    left: 0,
+    width: 580,
+    height: 153,
+>>>>>>> e3425b7c740a4a8fa6b93118371ac5707466fc32
     position: "absolute"
   },
   image20: {
@@ -355,6 +429,54 @@ const styles = StyleSheet.create({
     height: 40,
     position: "absolute"
   },
+<<<<<<< HEAD
+=======
+  image14Stack: {
+    top: 0,
+    left: 388,
+    width: 98,
+    height: 44,
+    position: "absolute"
+  },
+  rect4StackStack: {
+    width: 580,
+    height: 173,
+    marginTop: 691,
+    marginLeft: -61
+  },
+  welcomeBack3: {
+    //fontFamily: "poppins-500",
+    color: "#121212",
+    fontSize: 20,
+    marginTop: 50
+  },
+  ellipse1: {
+    top: 0,
+    left: 0,
+    width: 56,
+    height: 60,
+    position: "absolute"
+  },
+  icon1: {
+    top: 10,
+    left: 8,
+    position: "absolute",
+    color: "rgba(0,0,0,1)",
+    fontSize: 40
+  },
+  ellipse1Stack: {
+    width: 56,
+    height: 60,
+    marginLeft: 134
+  },
+  welcomeBack3Row: {
+    height: 80,
+    flexDirection: "row",
+    marginTop: -814,
+    marginLeft: 20,
+    marginRight: 49
+  },
+>>>>>>> e3425b7c740a4a8fa6b93118371ac5707466fc32
   button1: {
     top: 0,
     left: 88,
@@ -396,14 +518,14 @@ const styles = StyleSheet.create({
     marginRight: 55
   },
   saved1: {
-    fontFamily: "poppins-500",
+    //fontFamily: "poppins-500",
     color: "#121212",
     fontSize: 14,
     lineHeight: 16,
     marginTop: 8
   },
   interaction2: {
-    fontFamily: "poppins-500",
+    //fontFamily: "poppins-500",
     color: "#121212",
     textAlign: "justify",
     fontSize: 13,
@@ -411,7 +533,7 @@ const styles = StyleSheet.create({
     marginLeft: 54
   },
   reverse2: {
-    fontFamily: "poppins-500",
+    //fontFamily: "poppins-500",
     color: "#121212",
     textAlign: "justify",
     fontSize: 13,
@@ -425,14 +547,14 @@ const styles = StyleSheet.create({
     marginRight: 69
   },
   checker: {
-    fontFamily: "poppins-500",
+    //fontFamily: "poppins-500",
     color: "#121212",
     textAlign: "justify",
     fontSize: 13,
     lineHeight: 16
   },
   search: {
-    fontFamily: "poppins-500",
+    //fontFamily: "poppins-500",
     color: "#121212",
     textAlign: "justify",
     fontSize: 13,
@@ -476,7 +598,7 @@ const styles = StyleSheet.create({
     top: 73,
     left: 0,
     position: "absolute",
-    fontFamily: "poppins-regular",
+    //fontFamily: "poppins-regular",
     color: "#121212",
     fontSize: 13
   },
@@ -497,7 +619,7 @@ const styles = StyleSheet.create({
     top: 78,
     left: 43,
     position: "absolute",
-    fontFamily: "poppins-regular",
+    //fontFamily: "poppins-regular",
     color: "#121212",
     fontSize: 18
   },
@@ -522,7 +644,7 @@ const styles = StyleSheet.create({
     top: 73,
     left: 0,
     position: "absolute",
-    fontFamily: "poppins-regular",
+    //fontFamily: "poppins-regular",
     color: "#121212",
     fontSize: 13
   },
@@ -563,7 +685,7 @@ const styles = StyleSheet.create({
     top: 73,
     left: 0,
     position: "absolute",
-    fontFamily: "poppins-regular",
+    //fontFamily: "poppins-regular",
     color: "rgba(0,0,0,1)",
     fontSize: 13
   },
@@ -600,11 +722,24 @@ const styles = StyleSheet.create({
     width: 543,
     height: 335,
     position: "absolute",
+<<<<<<< HEAD
     left: 26
+=======
+    //fontFamily: "poppins-500",
+    color: "#121212",
+    fontSize: 20,
+    top: 0
+  },
+  scrollArea1Stack: {
+    width: 365,
+    height: 188,
+    marginTop: 21,
+    marginLeft: 20
+>>>>>>> e3425b7c740a4a8fa6b93118371ac5707466fc32
   },
   image18_imageStyle: {},
   tools1: {
-    fontFamily: "poppins-500",
+    //fontFamily: "poppins-500",
     color: "#121212",
     fontSize: 20,
     marginTop: 250,
@@ -653,7 +788,7 @@ const styles = StyleSheet.create({
     marginRight: 117
   },
   pranav: {
-    fontFamily: "poppins-500",
+    //fontFamily: "poppins-500",
     color: "#121212",
     fontSize: 20,
     marginLeft: 114

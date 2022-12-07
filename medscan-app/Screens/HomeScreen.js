@@ -5,7 +5,7 @@ import { styles } from '../Styles';
 export default function HomeScreen({ navigation }) {
     return (
       <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-        <Text>Welcome to PillPharm</Text>
+        <Text style={styles.welcome}>Welcome to PillPharm</Text>
 
         <TouchableOpacity
         style={styles.scanButton}
