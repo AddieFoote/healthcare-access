@@ -8,7 +8,7 @@ function onSubmit(image) {
   return callGoogleVisionAsync(image);
 }
 
-export default function ImagePickerComponent() {
+export default function ImagePickerComponent( {navigation})  {
 
   const [image, setImage] = useState(null);
   const [text, setText] = useState("Please add an image");
@@ -21,9 +21,10 @@ export default function ImagePickerComponent() {
     if (!result.cancelled) {
       setImage(result.uri);
       setText("Loading..");
-      const responseData = await onSubmit(result.base64);
-      console.log(responseData);
-      setText(responseData.text);
+      navigation.navigate("Info", {name: "Tylenol"});
+      //const responseData = await onSubmit(result.base64);
+      //console.log(responseData);
+      //setText(responseData.text);
     }
   };
   return (
