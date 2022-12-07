@@ -48,28 +48,25 @@ export default function WelcomeScreen(props) {
             </View>
           </ImageBackground>
           <View style={styles.rect4}>
-            <View style={styles.icon2ColumnRow}>
-              <View style={styles.icon2Column}>
-                <MaterialCommunityIconsIcon
-                  name="home"
-                  style={styles.icon2}
-                ></MaterialCommunityIconsIcon>
-                <Text style={styles.home2}>Home</Text>
-              </View>
-              <View style={styles.scanStack}>
+            <View style={styles.icon2Row}>
+              <MaterialCommunityIconsIcon
+                name="home"
+                style={styles.icon2}
+              ></MaterialCommunityIconsIcon>
+              <TouchableOpacity
+                onPress={() => props.navigation.navigate("Home")}
+                style={styles.button2}
+              >
                 <Text style={styles.scan}>Scan</Text>
-                <TouchableOpacity
-                  onPress={() => props.navigation.navigate("Home")}
-                  style={styles.button2}
-                ></TouchableOpacity>
-              </View>
-              <View style={styles.icon3Column}>
-                <FontAwesomeIcon
-                  name="phone"
-                  style={styles.icon3}
-                ></FontAwesomeIcon>
-                <Text style={styles.pharmacy3}>Pharmacy</Text>
-              </View>
+              </TouchableOpacity>
+              <FontAwesomeIcon
+                name="phone"
+                style={styles.icon3}
+              ></FontAwesomeIcon>
+            </View>
+            <View style={styles.home2Row}>
+              <Text style={styles.home2}>Home</Text>
+              <Text style={styles.pharmacy3}>Pharmacy</Text>
             </View>
           </View>
           <Image
@@ -276,56 +273,46 @@ const styles = StyleSheet.create({
     fontSize: 32,
     height: 35,
     width: 32,
-    marginLeft: 6
-  },
-  home2: {
-    color: "#121212",
-    fontSize: 8,
-    marginTop: 2
-  },
-  icon2Column: {
-    width: 38
-  },
-  scan: {
-    top: 8,
-    left: 2,
-    position: "absolute",
-    color: "#121212",
-    fontSize: 21
+    marginTop: 4
   },
   button2: {
-    top: 0,
-    left: 0,
-    width: 57,
-    height: 45,
-    position: "absolute"
+    width: 48,
+    height: 34,
+    marginLeft: 93
   },
-  scanStack: {
-    width: 57,
-    height: 45,
-    marginLeft: 88
+  scan: {
+    color: "#121212",
+    fontSize: 16,
+    marginTop: 10
   },
   icon3: {
     color: "rgba(30,45,13,1)",
     fontSize: 32,
     height: 32,
     width: 25,
-    marginLeft: 16
+    marginLeft: 93,
+    marginTop: 7
+  },
+  icon2Row: {
+    height: 39,
+    flexDirection: "row",
+    marginTop: 3,
+    marginLeft: 111,
+    marginRight: 178
+  },
+  home2: {
+    color: "#121212",
+    fontSize: 8
   },
   pharmacy3: {
     color: "#121212",
     fontSize: 8,
-    marginTop: 2
+    marginLeft: 232
   },
-  icon3Column: {
-    width: 42,
-    marginLeft: 73,
-    marginTop: 3
-  },
-  icon2ColumnRow: {
-    height: 50,
+  home2Row: {
+    height: 13,
     flexDirection: "row",
-    marginTop: 7,
+    marginTop: 2,
     marginLeft: 105,
     marginRight: 177
   },
@@ -661,4 +648,3 @@ const styles = StyleSheet.create({
   },
   rect5: {}
 });
-
