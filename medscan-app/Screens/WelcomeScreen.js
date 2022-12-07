@@ -29,23 +29,23 @@ export default function WelcomeScreen({navigation}) {
             imageStyle={styles.image20_imageStyle}
           >
             <Text style={styles.recents2}>Recents</Text>
-            <View style={styles.image11Stack}>
-              <Image
-                source={require("./icons/Untitled-Artwork_(4)_5.png")}
-                resizeMode="contain"
-                style={styles.image11}
-              ></Image>
-              <Image
-                source={require("./icons/Untitled-Artwork_(4)_5.png")}
-                resizeMode="contain"
-                style={styles.image12}
-              ></Image>
-              <Image
-                source={require("./icons/Untitled-Artwork_(4)_5.png")}
-                resizeMode="contain"
-                style={styles.image13}
-              ></Image>
-            </View>
+        <View style={styles.image11Stack}>
+          <Image
+            source={require("./icons/Untitled-Artwork_(4)_5.png")}
+            resizeMode="contain"
+            style={styles.image11}
+          ></Image>
+          <Image
+            source={require("./icons/Untitled-Artwork_(4)_5.png")}
+            resizeMode="contain"
+            style={styles.image12}
+          ></Image>
+          <Image
+            source={require("./icons/Untitled-Artwork_(4)_5.png")}
+            resizeMode="contain"
+            style={styles.image13}
+          ></Image>
+        </View>
           </ImageBackground>
           <View style={styles.rect4}>
             <View style={styles.icon2ColumnRow}>
@@ -87,77 +87,78 @@ export default function WelcomeScreen({navigation}) {
             resizeMode="contain"
             style={styles.image16}
           ></Image>
-          <TouchableOpacity style={styles.button1}>
-            <View style={styles.image9Row}>
-              <Image
-                source={require("./icons/Save.png")}
-                resizeMode="contain"
-                style={styles.image9}
-              ></Image>
-              <Image
-                source={require("./icons/Pills1.png")}
-                resizeMode="contain"
-                style={styles.image10}
-              ></Image>
-              <Image
-                source={require("./icons/reverse_search_logo.png")}
-                resizeMode="contain"
-                style={styles.image8}
-              ></Image>
-            </View>
-            <View style={styles.saved1Row}>
-              <Text style={styles.saved1}>Saved</Text>
-              <Text style={styles.interaction2}>Interaction</Text>
-              <Text style={styles.reverse2}>Reverse</Text>
-            </View>
-            <View style={styles.checkerRow}>
-              <Text style={styles.checker}>Checker</Text>
-              <Text style={styles.search}>Search</Text>
-            </View>
-          </TouchableOpacity>
-          <View style={styles.scrollArea1}>
-            <ScrollView
-              horizontal={true}
-              contentContainerStyle={styles.scrollArea1_contentContainerStyle}
-            >
-              <View style={styles.rect1Row}>
-                <View style={styles.rect1}>
-                  <View style={styles.nitrostat1Stack}>
-                    <Text style={styles.nitrostat1}>Nitrostat</Text>
+      <TouchableOpacity style={styles.button1}>
+        <View style={styles.image9Row}>
+          <Image
+            source={require("./icons/Save.png")}
+            resizeMode="contain"
+            style={styles.image9}
+          ></Image>
+          <Image
+            source={require("./icons/Pills1.png")}
+            resizeMode="contain"
+            style={styles.image10}
+          ></Image>
+          <Image
+            source={require("./icons/reverse_search_logo.png")}
+            resizeMode="contain"
+            style={styles.image8}
+          ></Image>
+        </View>
+        <View style={styles.saved1Row}>
+          <Text style={styles.saved1}>Saved</Text>
+          <Text style={styles.interaction2}>Interaction</Text>
+          <Text style={styles.reverse2}>Reverse</Text>
+        </View>
+        <View style={styles.checkerRow}>
+          <Text style={styles.checker}>Checker</Text>
+          <Text style={styles.search}>Search</Text>
+        </View>
+      </TouchableOpacity>
+      <View style={styles.scrollArea1Stack}>
+        <View style={styles.scrollArea1}>
+          <ScrollView
+            horizontal={true}
+            contentContainerStyle={styles.scrollArea1_contentContainerStyle}
+          >
+            <View style={styles.rect1Row}>
+              <View style={styles.rect1}>
+                <View style={styles.nitrostat1Stack}>
+                  <Text style={styles.nitrostat1}>Nitrostat</Text>
+                  <Image
+                    source={require("./icons/Pill.png")}
+                    resizeMode="contain"
+                    style={styles.image4}
+                  ></Image>
+                </View>
+              </View>
+              <View style={styles.nitrostat2Stack}>
+                <Text style={styles.nitrostat2}></Text>
+                <View style={styles.rect2}>
+                  <View style={styles.amoxycillin1Stack}>
+                    <Text style={styles.amoxycillin1}>Amoxycillin</Text>
                     <Image
                       source={require("./icons/Pill.png")}
                       resizeMode="contain"
-                      style={styles.image4}
-                    ></Image>
-                  </View>
-                </View>
-                <View style={styles.nitrostat2Stack}>
-                  <Text style={styles.nitrostat2}></Text>
-                  <View style={styles.rect2}>
-                    <View style={styles.amoxycillin1Stack}>
-                      <Text style={styles.amoxycillin1}>Amoxycillin</Text>
-                      <Image
-                        source={require("./icons/Pill.png")}
-                        resizeMode="contain"
-                        style={styles.image3}
-                      ></Image>
-                    </View>
-                  </View>
-                </View>
-                <View style={styles.rect3}>
-                  <View style={styles.dayQuil1Stack}>
-                    <Text style={styles.dayQuil1}>DayQuil</Text>
-                    <Image
-                      source={require("./icons/Pill.png")}
-                      resizeMode="contain"
-                      style={styles.image5}
+                      style={styles.image3}
                     ></Image>
                   </View>
                 </View>
               </View>
-            </ScrollView>
-          </View>
+              <View style={styles.rect3}>
+                <View style={styles.dayQuil1Stack}>
+                  <Text style={styles.dayQuil1}>DayQuil</Text>
+                  <Image
+                    source={require("./icons/Pill.png")}
+                    resizeMode="contain"
+                    style={styles.image5}
+                  ></Image>
+                </View>
+              </View>
+            </View>
+          </ScrollView>
         </View>
+      </View>
         <View style={styles.image18Stack}>
           <ImageBackground
             source={require("./icons/Vector_2.png")}
@@ -165,7 +166,7 @@ export default function WelcomeScreen({navigation}) {
             style={styles.image18}
             imageStyle={styles.image18_imageStyle}
           >
-            <Text style={styles.tools1}>Tools</Text>
+      <Text style={styles.tools1}>Tools</Text>
           </ImageBackground>
           <ImageBackground
             source={require("./icons/Vector_1.png")}
@@ -193,7 +194,7 @@ export default function WelcomeScreen({navigation}) {
                 ></FontAwesomeIcon>
               </View>
             </View>
-            <Text style={styles.pranav}>Pranav</Text>
+      <Text style={styles.pranav}>Pranav</Text>
           </ImageBackground>
         </View>
       </View>
@@ -257,8 +258,8 @@ const styles = StyleSheet.create({
     marginLeft: 43
   },
   rect4: {
-    top: 446,
-    left: 2,
+    top: 24,
+    left: 0,
     width: 580,
     height: 129,
     position: "absolute",
@@ -285,82 +286,156 @@ const styles = StyleSheet.create({
     fontSize: 8,
     marginTop: 2
   },
-  icon2Column: {
-    width: 38
-  },
   scan: {
-    top: 6,
-    left: 5,
-    position: "absolute",
-    fontFamily: "poppins-500",
+    //fontFamily: "poppins-500",
     color: "#121212",
-    fontSize: 26
-  },
-  button2: {
-    top: 0,
-    left: 0,
-    width: 57,
-    height: 45,
-    position: "absolute"
-  },
-  scanStack: {
-    width: 71,
-    height: 45,
-    marginLeft: 79,
-    marginTop: 2
+    fontSize: 26,
+    marginLeft: 84
   },
   icon3: {
     color: "rgba(30,45,13,1)",
     fontSize: 32,
     height: 32,
     width: 25,
-    marginLeft: 16
+    marginLeft: 84,
+    marginTop: 5
   },
-  pharmacy3: {
-    fontFamily: "poppins-500",
-    color: "#121212",
-    fontSize: 8,
-    marginTop: 2
-  },
-  icon3Column: {
-    width: 42,
-    marginLeft: 68,
-    marginTop: 3
-  },
-  icon2ColumnRow: {
-    height: 50,
+  icon2Row: {
+    height: 39,
     flexDirection: "row",
-    marginTop: 7,
-    marginLeft: 105,
-    marginRight: 177
+    marginTop: 5,
+    marginLeft: 111,
+    marginRight: 178
+  },
+  home1: {
+    //fontFamily: "poppins-500",
+    color: "#121212",
+    fontSize: 10
+  },
+  pharmacy1: {
+    //fontFamily: "poppins-500",
+    color: "#121212",
+    fontSize: 10,
+    marginLeft: 215
+  },
+  home1Row: {
+    height: 15,
+    flexDirection: "row",
+    marginTop: 1,
+    marginLeft: 111,
+    marginRight: 172
+  },
+  icon4: {
+    top: 0,
+    left: 208,
+    position: "absolute",
+    fontSize: 120,
+    color: "rgba(233,247,216,1)"
+  },
+  rect4Stack: {
+    top: 20,
+    left: 0,
+    width: 580,
+    height: 153,
+    position: "absolute"
+  },
+  image11: {
+    top: 0,
+    left: 63,
+    width: 40,
+    height: 40,
+    position: "absolute"
+  },
+  image12: {
+    top: 0,
+    left: 35,
+    width: 40,
+    height: 40,
+    position: "absolute"
+  },
+  image13: {
+    top: 0,
+    left: 0,
+    width: 40,
+    height: 40,
+    position: "absolute"
+  },
+  image11Stack: {
+    top: 4,
+    left: 56,
+    width: 103,
+    height: 40,
+    position: "absolute"
   },
   image14: {
-    top: 406,
-    left: 390,
+    top: 4,
+    left: 0,
     width: 40,
     height: 40,
     position: "absolute"
   },
   image15: {
-    top: 403,
-    left: 420,
+    top: 1,
+    left: 30,
     width: 40,
     height: 40,
     position: "absolute"
   },
   image16: {
-    top: 402,
-    left: 448,
+    top: 0,
+    left: 58,
     width: 40,
     height: 40,
     position: "absolute"
   },
-  button1: {
+  image14Stack: {
     top: 0,
-    left: 88,
-    width: 365,
-    height: 132,
+    left: 388,
+    width: 98,
+    height: 44,
+    position: "absolute"
+  },
+  rect4StackStack: {
+    width: 580,
+    height: 173,
+    marginTop: 691,
+    marginLeft: -61
+  },
+  welcomeBack3: {
+    //fontFamily: "poppins-500",
+    color: "#121212",
+    fontSize: 20,
+    marginTop: 50
+  },
+  ellipse1: {
+    top: 0,
+    left: 0,
+    width: 56,
+    height: 60,
+    position: "absolute"
+  },
+  icon1: {
+    top: 10,
+    left: 8,
     position: "absolute",
+    color: "rgba(0,0,0,1)",
+    fontSize: 40
+  },
+  ellipse1Stack: {
+    width: 56,
+    height: 60,
+    marginLeft: 134
+  },
+  welcomeBack3Row: {
+    height: 80,
+    flexDirection: "row",
+    marginTop: -814,
+    marginLeft: 20,
+    marginRight: 49
+  },
+  button1: {
+    width: 352,
+    height: 119,
     backgroundColor: "rgba(255,252,244,1)",
     shadowColor: "rgba(0,0,0,1)",
     shadowOffset: {
@@ -370,69 +445,70 @@ const styles = StyleSheet.create({
     elevation: 30,
     shadowOpacity: 0.4,
     shadowRadius: 10,
-    borderRadius: 28
+    borderRadius: 28,
+    marginTop: 163,
+    marginLeft: 33
   },
   image9: {
     width: 40,
     height: 40,
-    marginTop: 4
+    marginTop: 1
   },
   image10: {
     width: 40,
     height: 41,
-    marginLeft: 77
+    marginLeft: 67
   },
   image8: {
     width: 40,
     height: 40,
-    marginLeft: 76,
-    marginTop: 4
+    marginLeft: 75
   },
   image9Row: {
-    height: 44,
+    height: 41,
     flexDirection: "row",
-    marginTop: 22,
-    marginLeft: 37,
-    marginRight: 55
+    marginTop: 18,
+    marginLeft: 49,
+    marginRight: 41
   },
   saved1: {
-    fontFamily: "poppins-500",
+    //fontFamily: "poppins-500",
     color: "#121212",
     fontSize: 14,
-    lineHeight: 16,
-    marginTop: 8
+    lineHeight: 16
   },
   interaction2: {
-    fontFamily: "poppins-500",
+    //fontFamily: "poppins-500",
     color: "#121212",
     textAlign: "justify",
     fontSize: 13,
     lineHeight: 16,
-    marginLeft: 54
+    marginLeft: 42
   },
   reverse2: {
-    fontFamily: "poppins-500",
+    //fontFamily: "poppins-500",
     color: "#121212",
     textAlign: "justify",
     fontSize: 13,
     lineHeight: 16,
-    marginLeft: 40
+    marginLeft: 35
   },
   saved1Row: {
-    height: 24,
+    height: 16,
     flexDirection: "row",
-    marginLeft: 35,
+    marginTop: 3,
+    marginLeft: 39,
     marginRight: 69
   },
   checker: {
-    fontFamily: "poppins-500",
+    //fontFamily: "poppins-500",
     color: "#121212",
     textAlign: "justify",
     fontSize: 13,
     lineHeight: 16
   },
   search: {
-    fontFamily: "poppins-500",
+    //fontFamily: "poppins-500",
     color: "#121212",
     textAlign: "justify",
     fontSize: 13,
@@ -442,12 +518,13 @@ const styles = StyleSheet.create({
   checkerRow: {
     height: 16,
     flexDirection: "row",
-    marginLeft: 146,
-    marginRight: 60
+    marginTop: 8,
+    marginLeft: 138,
+    marginRight: 55
   },
   scrollArea1: {
-    top: 170,
-    left: 84,
+    top: 26,
+    left: 1,
     width: 364,
     height: 162,
     position: "absolute",
@@ -476,7 +553,7 @@ const styles = StyleSheet.create({
     top: 73,
     left: 0,
     position: "absolute",
-    fontFamily: "poppins-regular",
+    //fontFamily: "poppins-regular",
     color: "#121212",
     fontSize: 13
   },
@@ -497,7 +574,7 @@ const styles = StyleSheet.create({
     top: 78,
     left: 43,
     position: "absolute",
-    fontFamily: "poppins-regular",
+    //fontFamily: "poppins-regular",
     color: "#121212",
     fontSize: 18
   },
@@ -522,22 +599,22 @@ const styles = StyleSheet.create({
     top: 73,
     left: 0,
     position: "absolute",
-    fontFamily: "poppins-regular",
+    //fontFamily: "poppins-regular",
     color: "#121212",
     fontSize: 13
   },
   image3: {
     top: 0,
-    left: 13,
+    left: 9,
     width: 53,
     height: 79,
     position: "absolute"
   },
   amoxycillin1Stack: {
-    width: 105,
+    width: 101,
     height: 93,
     marginTop: 13,
-    marginLeft: 26
+    marginLeft: 30
   },
   nitrostat2Stack: {
     width: 131,
@@ -563,7 +640,7 @@ const styles = StyleSheet.create({
     top: 73,
     left: 0,
     position: "absolute",
-    fontFamily: "poppins-regular",
+    //fontFamily: "poppins-regular",
     color: "rgba(0,0,0,1)",
     fontSize: 13
   },
@@ -588,90 +665,34 @@ const styles = StyleSheet.create({
     marginLeft: 9,
     marginTop: 16
   },
-  image19Stack: {
-    top: 321,
-    left: 31,
-    width: 582,
-    height: 583,
-    position: "absolute"
-  },
-  image18: {
-    top: 32,
-    width: 543,
-    height: 335,
+  recents2: {
+    left: 0,
     position: "absolute",
-    left: 26
+    //fontFamily: "poppins-500",
+    color: "#121212",
+    fontSize: 20,
+    top: 0
   },
-  image18_imageStyle: {},
+  scrollArea1Stack: {
+    width: 365,
+    height: 188,
+    marginTop: 21,
+    marginLeft: 20
+  },
   tools1: {
-    fontFamily: "poppins-500",
+    //fontFamily: "poppins-500",
     color: "#121212",
     fontSize: 20,
-    marginTop: 250,
-    marginLeft: 89
-  },
-  image17: {
-    top: 0,
-    left: 0,
-    width: 576,
-    height: 294,
-    position: "absolute"
-  },
-  image17_imageStyle: {},
-  welcomeBack3: {
-    fontFamily: "poppins-500",
-    color: "#121212",
-    fontSize: 20,
-    marginTop: 50
-  },
-  ellipse1: {
-    top: 0,
-    left: 0,
-    width: 56,
-    height: 60,
-    position: "absolute"
-  },
-  icon1: {
-    top: 10,
-    left: 8,
-    position: "absolute",
-    color: "rgba(0,0,0,1)",
-    fontSize: 40,
-    height: 40,
-    width: 40
-  },
-  ellipse1Stack: {
-    width: 56,
-    height: 60,
-    marginLeft: 134
-  },
-  welcomeBack3Row: {
-    height: 80,
-    flexDirection: "row",
-    marginTop: 82,
-    marginLeft: 114,
-    marginRight: 117
+    marginTop: -371,
+    marginLeft: 21
   },
   pranav: {
-    fontFamily: "poppins-500",
+    //fontFamily: "poppins-500",
     color: "#121212",
     fontSize: 20,
-    marginLeft: 114
-  },
-  image18Stack: {
-    top: 0,
-    left: 0,
-    width: 576,
-    height: 367,
-    position: "absolute"
-  },
-  image19StackStack: {
-    top: -32,
-    left: -94,
-    width: 613,
-    height: 904,
-    position: "absolute"
-  },
-  rect5: {}
+    marginTop: -150,
+    marginLeft: 20
+  }
 });
 
+export default WelcomeScreen;
