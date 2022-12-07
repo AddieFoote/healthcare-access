@@ -48,6 +48,12 @@ export const styles = StyleSheet.create({
       justifyContent: "center", 
       paddingBottom: 20, 
       paddingLeft: 6
+    }, homeScreenContainer: {
+      flex: 1, 
+      alignItems: 'center', 
+      justifyContent: 'center',
+      backgroundColor: '#FFF9E8'
+
     }
   });
   
