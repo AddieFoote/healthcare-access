@@ -12,7 +12,7 @@ import MaterialCommunityIconsIcon from "react-native-vector-icons/MaterialCommun
 import FontAwesomeIcon from "react-native-vector-icons/FontAwesome";
 import Svg, { Ellipse } from "react-native-svg";
 
-export default function WelcomeScreen({navigation}) {
+function WelcomeScreen(props) {
   return (
     <View style={styles.container}>
       <View style={styles.image19StackStack}>
@@ -289,8 +289,8 @@ const styles = StyleSheet.create({
     width: 38
   },
   scan: {
-    top: 6,
-    left: 5,
+    top: 5,
+    left: 0,
     position: "absolute",
     fontFamily: "poppins-500",
     color: "#121212",
@@ -298,16 +298,16 @@ const styles = StyleSheet.create({
   },
   button2: {
     top: 0,
-    left: 0,
+    left: 4,
     width: 57,
     height: 45,
     position: "absolute"
   },
   scanStack: {
-    width: 71,
+    width: 66,
     height: 45,
-    marginLeft: 79,
-    marginTop: 2
+    marginLeft: 84,
+    marginTop: 3
   },
   icon3: {
     color: "rgba(30,45,13,1)",
@@ -675,3 +675,4 @@ const styles = StyleSheet.create({
   rect5: {}
 });
 
+export default WelcomeScreen;
