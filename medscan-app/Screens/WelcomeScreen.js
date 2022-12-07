@@ -13,14 +13,20 @@ import FontAwesomeIcon from "react-native-vector-icons/FontAwesome";
 import Svg, { Ellipse } from "react-native-svg";
 import EvilIconsIcon from "react-native-vector-icons/EvilIcons";
 
-// import React, { useState, useEffect } from 'react';
-// import AppLoading from 'expo-app-loading';
-// import {
-//   useFonts,
-//   Poppins_500Medium,
-// } from '@expo-google-fonts/poppins';
+/*import React, { useState, useEffect } from 'react';
+ import AppLoading from 'expo-app-loading';
+ import {
+   useFonts,
+   Poppins_500Medium,
+ } from '@expo-google-fonts/poppins';
+
+ import * as Font from 'expo-font';
+*/
 
 export default function WelcomeScreen(props) {
+  //const [loaded, error] = useFonts({"Poppins_500Medium": "poppins-regular"});
+
+  
   return (
     <View style={styles.container}>
       <View style={styles.image3StackStack}>
@@ -245,7 +251,7 @@ const styles = StyleSheet.create({
   },
   image3_imageStyle: {},
   recents: {
-    fontFamily: "Poppins_500Medium",
+    //fontFamily: "Poppins_500Medium",
     color: "#121212",
     fontSize: 25,
     marginTop: 75,
@@ -296,7 +302,7 @@ const styles = StyleSheet.create({
     top: 65,
     left: 0,
     position: "absolute",
-    fontFamily: "poppins-regular",
+    //fontFamily: "poppins-regular",
     color: "#121212",
     fontSize: 18
   },
@@ -317,7 +323,7 @@ const styles = StyleSheet.create({
     top: 79,
     left: 43,
     position: "absolute",
-    fontFamily: "poppins-regular",
+    //fontFamily: "poppins-regular",
     color: "#121212",
     fontSize: 18
   },
@@ -342,7 +348,7 @@ const styles = StyleSheet.create({
     top: 65,
     left: 0,
     position: "absolute",
-    fontFamily: "poppins-regular",
+    //fontFamily: "poppins-regular",
     color: "#121212",
     fontSize: 18
   },
@@ -383,7 +389,7 @@ const styles = StyleSheet.create({
     top: 65,
     left: 0,
     position: "absolute",
-    fontFamily: "poppins-regular",
+    //fontFamily: "poppins-regular",
     color: "rgba(0,0,0,1)",
     fontSize: 18
   },
@@ -423,13 +429,23 @@ const styles = StyleSheet.create({
     elevation: 30,
     shadowOpacity: 1,
     shadowRadius: 10,
-    flexDirection: "row"
+    flexDirection: "row",
+    position: 'absolute',
+    flex:0.1,
+    left: 0,
+    right: 0,
+    bottom: -10,
+    backgroundColor:'green',
+    flexDirection:'row',
+    height:80,
+    alignItems:'center',
+    
   },
   home: {
     top: 31,
     left: 0,
     position: "absolute",
-    fontFamily: "Poppins_500Medium",
+    //fontFamily: "Poppins_500Medium",
     color: "#121212",
     fontSize: 13
   },
@@ -447,7 +463,7 @@ const styles = StyleSheet.create({
     height: 51
   },
   scan: {
-    fontFamily: "Poppins_500Medium",
+    //fontFamily: "Poppins_500Medium",
     color: "#121212",
     fontSize: 20,
     marginLeft: 69,
@@ -457,7 +473,7 @@ const styles = StyleSheet.create({
     top: 28,
     left: 0,
     position: "absolute",
-    fontFamily: "Poppins_500Medium",
+    //fontFamily: "Poppins_500Medium",
     color: "#121212",
     fontSize: 12
   },
@@ -543,6 +559,8 @@ const styles = StyleSheet.create({
     position: "absolute"
   },
   rectStack: {
+    position: 'absolute',
+    bottom: 0,
     width: 399,
     height: 112,
     marginTop: 90,
@@ -570,7 +588,7 @@ const styles = StyleSheet.create({
     top: 61,
     left: 15,
     position: "absolute",
-    fontFamily: "Poppins_500Medium",
+    //fontFamily: "Poppins_500Medium",
     color: "#121212",
     fontSize: 18,
     lineHeight: 16
@@ -604,7 +622,7 @@ const styles = StyleSheet.create({
     top: 53,
     left: 0,
     position: "absolute",
-    fontFamily: "Poppins_500Medium",
+    //fontFamily: "Poppins_500Medium",
     color: "#121212",
     textAlign: "justify",
     fontSize: 18,
@@ -640,7 +658,7 @@ const styles = StyleSheet.create({
     top: 53,
     left: 0,
     position: "absolute",
-    fontFamily: "Poppins_500Medium",
+    //fontFamily: "Poppins_500Medium",
     color: "#121212",
     textAlign: "justify",
     fontSize: 18,
@@ -703,7 +721,7 @@ const styles = StyleSheet.create({
   },
   image_imageStyle: {},
   welcomeBackPranav: {
-    fontFamily: "Poppins_500Medium",
+    //fontFamily: "Poppins_500Medium",
     color: "#121212",
     fontSize: 25,
     marginTop: 30
@@ -737,7 +755,7 @@ const styles = StyleSheet.create({
     marginRight: 14
   },
   tools: {
-    fontFamily: "Poppins_500Medium",
+    //fontFamily: "Poppins_500Medium",
     color: "#121212",
     fontSize: 25,
     marginTop: 58,
