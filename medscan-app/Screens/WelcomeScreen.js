@@ -225,7 +225,7 @@ const styles = StyleSheet.create({
   },
   image20_imageStyle: {},
   recents2: {
-    fontFamily: "poppins-500",
+    //fontFamily: "poppins-500",
     color: "#121212",
     fontSize: 20,
     marginTop: 78,
@@ -282,7 +282,7 @@ const styles = StyleSheet.create({
     marginLeft: 6
   },
   home2: {
-    fontFamily: "poppins-500",
+    //fontFamily: "poppins-500",
     color: "#121212",
     fontSize: 8,
     marginTop: 2
@@ -291,7 +291,7 @@ const styles = StyleSheet.create({
     top: 5,
     left: 0,
     position: "absolute",
-    fontFamily: "poppins-500",
+    //fontFamily: "poppins-500",
     color: "#121212",
     fontSize: 26
   },
